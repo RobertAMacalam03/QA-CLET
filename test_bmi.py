@@ -30,4 +30,3 @@ def test_bmi_zero_height():
         calculate_bmi(70, 0)
     except ValueError:
         assert True
-
