@@ -9,7 +9,6 @@ def test_bmi_underweight():
 def test_bmi_normal():
     bmi = round(calculate_bmi(68, 1.75), 2)
     assert 18.5 <= bmi < 25
-    
 
 
 def test_bmi_overweight():
